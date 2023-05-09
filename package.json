@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "express": "^4.18.2",
@@ -19,8 +20,5 @@
   "engines": {
     "node": ">=14"
   }
-  "scripts": {
-  "start": "node server.js",
-  "build": "webpack --mode production"
 }
-}
+
